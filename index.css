@@ -1,0 +1,98 @@
+body{
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    background-color: #f2f5f9;
+    font-family: poppins;
+}
+
+
+.businessCard {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.17fr;
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+    align-content: stretch;
+    overflow: hidden;
+}
+.topCard{
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+}
+.topTopCard {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr;
+    background-image: url(./img/hero-image-business-card.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    align-items:flex-end;
+    
+    
+}
+.svgBand{
+    margin-bottom: -1px;
+
+}
+.topDownCard{
+    display: grid;
+    grid-template-rows: 0.7fr 0.5fr;
+}
+.title {
+    margin-right: 30px ;
+    margin-left: 30px;
+
+}
+.title h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    letter-spacing: -1.1px;
+
+}
+.description {
+    margin-right:40px ;
+    margin-left: 30px;
+    font-family: lato;
+    font-weight: 700;
+    color: #677489;
+}
+.svgContainer {
+}
+.bottomCard {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    height: 100px;
+    border-top: 0.5px solid gray;
+}
+.imgcontainer {
+    background-image: url(./img/avatar-image-business-card.png);
+    background-size: contain;
+    width: 38px;
+    height: 38px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 1px 5px rgba(0, 0, 0, 0.042);
+    justify-self: right;
+    align-self: center;
+    margin-right: 20px;
+}
+.bottomRight {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.bottomTitle {
+    display: grid;
+    align-items: self-end;
+    font-weight: 700;
+    font-size: 15px;
+}
+.bottomDescription {
+    font-size: 11px;
+    font-weight: 700;
+    color: #586985;
+}
